@@ -1,9 +1,9 @@
 class Parcel
   def initialize (length, width, depth, weight)
-    @length = length
-    @width = width
-    @depth = depth
-    @weight = weight
+    @length = length.to_i
+    @width = width.to_i
+    @depth = depth.to_i
+    @weight = weight.to_i
   end
 
   def volume
